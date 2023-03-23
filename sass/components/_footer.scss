@@ -1,0 +1,144 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--dark-bgr-color);
+}
+
+.footer__box {
+    display: flex;
+    align-items: baseline;
+    gap: 93px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-box__left {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
+
+.logo-box {
+    margin-bottom: 20px;
+}
+
+.logo-down {
+    color: var(--white-txt-color);
+}
+
+.footer-info {
+    width: 231px;
+}
+
+.address__item {
+    margin-bottom: 9px;
+}
+
+.address__item:last-child {
+    margin-bottom: 0px;
+}
+
+.address__link {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    color: var(--white-txt-color);
+
+    &:hover,
+    &:focus {
+            color: var(--blue-txt-color);
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+}
+
+
+
+.address__link--color {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-join__title {
+    margin-bottom: 20px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--white-txt-color);
+}
+
+.footer-join__list {
+    display: flex;
+    justify-content: space-between;
+    width: 206px;
+    align-items: center;
+
+}
+
+.footer-join__link {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    text-decoration: none;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    fill: var(--white-txt-color);
+
+    &:hover,
+    &:focus {
+            background-color: var(--blue-txt-color);
+            border-radius: 50%;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+}
+
+
+
+.footer-join__icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--white-txt-color);
+}
+
+.footer-right {
+    height: 86px;
+}
+
+.signup {
+    display: flex;
+}
+
+.signup__input {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    background: #2f303a;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.button--positioning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+}
+
+.button--margin {
+    margin-left: 12px;
+}
+
+.button__icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
