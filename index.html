@@ -27,6 +27,13 @@
       <div class="container header-container">
         <a class="logo link" href="./index.html"
           >Web<span class="logo-up">Studio</span></a>
+
+          <button class="menu-button" type="button" aria-label="кнопка відкриття меню">
+            <svg class="menu-button__icon" width="40" heidth="40">
+              <use class="menu-button__icon-open" href="./images/icons.svg#icon-menu"></use>
+              <use class="menu-button__icon-close" href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
         <!--главная навигация-->
         <nav class="site-nav">
           <ul class="site-nav__list list">
@@ -58,6 +65,46 @@
           </li>
         </ul>
       </div>
+
+          <!--мобильное меню-->
+    <div class="mobile-overlay">
+      <div class="mobile-menu">
+        <nav class="mobile-nav">
+          <ul class="mobile-nav__list list">
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link link current" href="./index.html">Студія</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link link" href="./portfolio.html">Портфоліо</a>
+          </li>
+            <li class="mobile-nav__item">
+            <a class="mobile-nav__link link" href="">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile-contacts">
+        <ul class="mobile-contacts__list list">
+          <li class="mobile-contacts__item">
+            <a class="mobile-contacts__link-tel link" href="tel:+380961111111">
+          </li>
+          <li class="mobile-contacts__item">
+            <a class="mobile-contacts__link-mail link" href="mailto:info@devstudio.com">
+          </li>
+        </ul>
+      </div>
+
+      <div class="mobile-socials">
+        <ul class="mobile-socials__list list">
+          <li class="mobile-socials__item"><a class="mobile-socials__link link" href="" target="_blank">Instagram</a></li>
+          <li class="mobile-socials__item"><a class="mobile-socials__link link" href="" target="_blank">Twitter</a></li>
+          <li class="mobile-socials__item"><a class="mobile-socials__link link" href="" target="_blank">Facebook</a></li>
+          <li class="mobile-socials__item"><a class="mobile-socials__link link" href="" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+
     </header>
     <!--Уникальный контент-->
     <main>
@@ -541,6 +588,11 @@
       </div>
 
     </footer> -->
+    
+
+
+
+
     <script src="./js/modal.js"></script>
   </body>
 </html>

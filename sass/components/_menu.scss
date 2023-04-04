@@ -1,0 +1,23 @@
+.menu-button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: transparent;
+    outline: transparent;
+
+
+    &__icon {
+        width: 40px;
+        height: 40px;
+
+        &-open {
+            opacity: 1;
+            fill: #fff;
+        }
+
+        &-close {
+            opacity: 0;
+        }
+    }
+}
